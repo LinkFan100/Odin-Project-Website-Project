@@ -1,0 +1,18 @@
+body{
+    font-family: Roboto;
+    
+}
+ul{
+    list-style: none;
+
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.headerlinks{
+    display: flex;
+    flex-direction: row;
+    gap:10px; 
+}
