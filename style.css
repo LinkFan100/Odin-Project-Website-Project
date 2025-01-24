@@ -31,6 +31,7 @@ ul{
 }
 .herosecondarytext{
     margin-top: 0;
+    margin-bottom: 5px;
 }
 .herosecondarytext, .headerlinks{
 font-size: 18px;
@@ -41,10 +42,20 @@ color: #E5E7EB;
     display: flex;
     flex-direction: column;
     flex:1;
+    padding:5px;
 }
 .herodiv{
     display: flex;
     flex-flow: column wrap;
-
+}
+.herodiv button{
+    background: blue;
+    width:fit-content;
+    height: fit-content;
+    border-radius: 5px;
+    padding: 5px 25px;
+    color: white;
+    border-style: solid;
 
 }
+
