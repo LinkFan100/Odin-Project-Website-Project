@@ -11,7 +11,7 @@ ul{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding:10px;
+    padding:10px 40px;
 }
 .headerlogo{
     
@@ -28,6 +28,7 @@ ul{
     color: #F9FAF8;
     font-weight: 900;
     margin-bottom: 0px;
+    width:400px;
 }
 .herosecondarytext{
     margin-top: 0;
@@ -47,6 +48,7 @@ color: #E5E7EB;
 .herodiv{
     display: flex;
     flex-flow: column wrap;
+    width: 350px;
 }
 .herodiv button{
     background: blue;
@@ -57,5 +59,17 @@ color: #E5E7EB;
     color: white;
     border-style: solid;
 
+}
+.heroimg{
+
+    width: 270px;
+    height: 130px;
+    align-self: end;
+    
+}
+.fullherodiv{
+    display: flex;
+    
+    padding: 0px 0px 60px 70px;
 }
 
