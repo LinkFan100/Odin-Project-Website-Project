@@ -82,7 +82,9 @@ color: #E5E7EB;
 display: flex;
 flex-direction: column;
 align-items: center;
-min-height: calc(100vh - 40px);
+/**min-height: calc(100vh - 40px);**/
+gap:50px;
+padding-bottom:40px;
 }
 .info_img_text{
     display: flex;
@@ -93,17 +95,34 @@ min-height: calc(100vh - 40px);
     flex-flow: column wrap;
 }
 .textimg{
-    height: 10px;
-    width: 10px;
+    height: 100px;
+    width: 100px;
 }
 .quote{
     background-color: #E5E7EB;
     font-size: 36px;
     color:#1F2937;
     font-style: italic;
+    padding:40px;
 }
 .footer{
     text-align: center;
     padding: 2px;
     
+}
+.infohead{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+.cta{
+    background-color: #3882F6;
+    display: flex;
+    padding:10px;
+    gap:25px;
+    border-radius: 20px;
+}
+.cta>button{
+    background-color: #3882F6;
+    border-radius: 20px;
 }
