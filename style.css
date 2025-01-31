@@ -75,7 +75,7 @@ color: #E5E7EB;
 }
 .fullherodiv{
     display: flex;
-    
+    justify-content: center;
     padding: 0px 0px 60px 70px;
 }
 .info{
